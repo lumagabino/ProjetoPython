@@ -1,3 +1,6 @@
+#Luma
+#Pietro Ruy Pugliesi - RA: 185921
+
 # python3 prog3.py < arq1.in - como rodar
 
 # Entrada: 1ª linha - velocidade máxima de todas as ruas
