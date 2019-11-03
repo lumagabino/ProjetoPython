@@ -231,22 +231,10 @@ if __name__ == "__main__":
     print(origem)
     print(destino)
 
-    # Driver program to test the above functions 
-    graph = Graph(9) 
-    graph.addEdge('a', 1, 4) 
-    graph.addEdge('a', 7, 8) 
-    graph.addEdge(1, 2, 8) 
-    graph.addEdge(1, 7, 11) 
-    graph.addEdge(2, 3, 7) 
-    graph.addEdge(2, 8, 2) 
-    graph.addEdge(2, 5, 4) 
-    graph.addEdge(3, 4, 9) 
-    graph.addEdge(3, 5, 14) 
-    graph.addEdge(4, 5, 10) 
-    graph.addEdge(5, 6, 2) 
-    graph.addEdge(6, 7, 1) 
-    graph.addEdge(6, 8, 6) 
-    graph.addEdge(7, 8, 7)
+    graphSize = len(arestas)
+    graph = Graph(graphSize)
+    for i in range(graphSize):
+        graph.addEdge(arestas[i][0], arestas[i][1], arestas[i][2])
 
     print(graph.graph)
 
