@@ -1,3 +1,3 @@
 ProjetoPython
 
-Projeto não terminado
+Projeto disciplina Paradigmas de Programação. Não terminado
